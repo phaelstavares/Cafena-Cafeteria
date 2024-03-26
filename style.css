@@ -1,0 +1,200 @@
+:root {
+    --color1: #d3ad7f;
+    --color2: #13131a;
+    --color3: #010103;
+    --color4: #ffffff;
+    --border: 0.1rem solid rgba(255, 255, 255, 0.3);
+    --border2: 0.1rem solid #d3ad7f;
+    font-size: 10px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: 0.2s linear;
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    background-color: var(--color3);
+}
+
+section {
+    padding: 3rem 2rem;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 99;
+    border-bottom: var(--border);
+    background-color: var(--color3);
+}
+
+.header section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.nav-header a {
+    margin: 0 1rem;
+    font-size: 1.8rem;
+    color: var(--color4);
+}
+
+.nav-header a:hover {
+    color: var(--color1);
+    border-bottom: var(--border2);
+    padding: 0.5rem;
+    font-size: 2rem;
+}
+
+.icones-header img {
+    width: 30px;
+    height: 30px;
+    margin: 1rem;
+    cursor: pointer;
+}
+
+.icones-header img:hover {
+    width: 35px;
+    height: 35px;
+}
+
+.inicio-container {
+    background: url("./img/home-img.jpg");
+    background-position: center;
+    background-size: cover; /* Sempre cobrir o espaço todo */
+}
+
+.inicio-container section {
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.inicio-conteudo {
+    max-width: 60rem;
+}
+
+.inicio-conteudo h3 {
+    color: var(--color4);
+    font-size: 6rem;
+    text-transform: uppercase;
+}
+
+.inicio-conteudo p {
+    color: var(--color4);
+    font-size: 2rem;
+    font-weight: 100;
+    line-height: 1.8;
+    padding: 1rem 0;
+}
+
+.botao {
+    background: var(--color1);
+    color: var(--color4);
+    padding: 1rem 3rem;
+    font-size: 1.7rem;
+    cursor: pointer;
+    margin-top: 1rem;
+    display: inline-block;
+}
+
+.botao:hover {
+    letter-spacing: 0.1rem;
+}
+
+.titulo {
+    font-size: 4rem;
+    color: var(--color1);
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 4rem;
+}
+
+.titulo span {
+    color: var(--color4);
+    text-transform: uppercase;
+}
+
+.sobre-info {
+    display: flex;
+    align-items: center;
+    background-color: var(--color2);
+    gap: 1.5rem;
+}
+
+.sobre-conteudo {
+    padding: 2rem;
+}
+
+.sobre-conteudo h3 {
+    font-size: 3rem;
+    color: var(--color4);
+}
+
+.sobre-conteudo p {
+    font-size: 2rem;
+    color: var(--color4);
+    padding: 1rem 0;
+    line-height: 3rem;
+}
+
+.menu-container .caixa-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: 1.5rem;
+}
+
+.caixa-pequena {
+    text-align: center;
+    border: var(--border);
+    padding: 5rem;
+    cursor: pointer;
+}
+
+.caixa-pequena:hover {
+    background-color: var(--color4);
+}
+
+/* >* aplica para todos os elementos dentro da caixa */
+.caixa-pequena:hover>* {
+    color: var(--color3);
+}
+
+.caixa-pequena img {
+    height: 10rem;
+}
+
+.caixa-pequena h3 {
+    color: var(--color4);
+    font-size: 2rem;
+    padding: 1rem 0;
+}
+
+.preco {
+    color: var(--color4);
+    font-size: 2.5rem;
+    padding: 0.5rem 0;
+}
+
+.preco span {
+    font-size: 1.5rem;
+    text-decoration: line-through;
+    font-weight: 100;
+}
