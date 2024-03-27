@@ -85,7 +85,7 @@ header {
     display: flex;
     align-items: center;
     min-height: 100vh;
-    margin-top: 50px;
+    margin-top: 6rem;
 }
 
 .inicio-conteudo {
@@ -267,4 +267,44 @@ header {
 
 .redes-siciais img:hover {
     background-color: var(--color1);
+}
+
+@media (max-width: 1185px) {
+    .sobre-container .sobre-info {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sobre-container .sobre-info .sobre-conteudo {
+        width: 100%;
+    }
+
+    .sobre-container .sobre-info img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .sobre-container .sobre-info, p, h3, a {
+        width: 100%;
+        text-align: center;
+        position: relative;
+        text-align: center;
+        align-items: center;
+    }
+
+    .botao {
+        width: 200px;
+    }
+}
+
+@media (max-width: 1146px) {
+    .sobre-container .sobre-info .sobre-conteudo {
+        width: 70%;
+    }
+}
+
+@media (max-width: 800px) {
+    .sobre-container .sobre-info .sobre-conteudo {
+        width: 90%;
+    }
 }
