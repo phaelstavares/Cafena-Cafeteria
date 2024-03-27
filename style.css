@@ -235,15 +235,18 @@ header {
     width: 3rem;
 }
 
+.avaliacoes-container .caixa-pequena:hover {
+    background-color: var(--color3);
+}
+
+.avaliacoes-container .caixa-pequena>* {
+    color: var(--color4);
+}
+
 .endereco {
     display: flex;
     align-items: center;
     flex-direction: column;
-}
-
-.caixa-container .caixa-pequena:hover>* {
-    color: var(--color3);
-
 }
 
 .footer {
