@@ -328,4 +328,12 @@ header {
     .inicio-conteudo h3 {
         margin-top: 100px;
     }
+
+    .nav-header {
+        display: none;
+    }
+
+    .header section {
+        max-width: 300px;
+    }
 }
