@@ -269,7 +269,22 @@ header {
     background-color: var(--color1);
 }
 
-@media (max-width: 1185px) {
+@media (max-width: 1187px) {
+    .header {
+        display: flex;
+        flex-direction: flex;
+        width: 100%;
+        text-align: center;
+    }
+
+    .header section {
+        width: 100%;
+    }
+
+    .logo-header {
+        width: 130px;
+    }
+
     .sobre-container .sobre-info {
         display: flex;
         flex-direction: column;
@@ -306,5 +321,11 @@ header {
 @media (max-width: 800px) {
     .sobre-container .sobre-info .sobre-conteudo {
         width: 90%;
+    }
+}
+
+@media (max-width: 724px) {
+    .inicio-conteudo h3 {
+        margin-top: 100px;
     }
 }
