@@ -337,34 +337,4 @@ header {
         max-width: 300px;
         flex-direction: row;
     }
-
-    .inicio-container section {
-        min-width: 450px;
-    }
-
-    .sobre-container {
-        min-width: 300px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-    }
-
-    section {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .inicio-container {
-        background: url("./img/home-img.jpg");
-        background-position: center;
-        background-size: cover;
-        width: 100vw;
-    }
-
-    .inicio-conteudo h3 {
-        font-size: 3em;
-    }
 }
