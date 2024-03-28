@@ -325,9 +325,6 @@ header {
 }
 
 @media (max-width: 724px) {
-    .inicio-conteudo h3 {
-        margin-top: 100px;
-    }
 
     .nav-header {
         display: none;
@@ -336,5 +333,21 @@ header {
     .header section {
         max-width: 300px;
         flex-direction: row;
+    }
+
+    iframe {
+        width: 100%;
+    }
+
+    .inicio-conteudo h3 {
+        font-size: 3em;
+    }
+
+    .inicio-conteudo p {
+        font-size: 1.5em;
+    }
+
+    .inicio-conteudo a {
+        font-size: 1.5em;
     }
 }
