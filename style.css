@@ -24,6 +24,7 @@
 
 body {
     background-color: var(--color3);
+    width: 98vw;
 }
 
 section {
