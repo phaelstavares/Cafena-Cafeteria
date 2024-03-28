@@ -325,6 +325,9 @@ header {
 }
 
 @media (max-width: 724px) {
+    .inicio-container section {
+        margin-top: -1rem;
+    }
 
     .nav-header {
         display: none;
