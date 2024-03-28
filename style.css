@@ -343,7 +343,7 @@ header {
     }
 
     .sobre-container {
-        min-width: 600px;
+        min-width: 300px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -361,6 +361,10 @@ header {
         background: url("./img/home-img.jpg");
         background-position: center;
         background-size: cover;
-        width: 100vh;
+        width: 100vw;
+    }
+
+    .inicio-conteudo h3 {
+        font-size: 3em;
     }
 }
