@@ -24,7 +24,6 @@
 
 body {
     background-color: var(--color3);
-    width: 98vw;
 }
 
 section {
@@ -356,30 +355,6 @@ header {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-    }
-
-    .sobre-container {
-        min-width: 650px;
-    }
-
-    .menu-container {
-        min-width: 650px;
-    }
-
-    .avaliacoes-container {
-        min-width: 650px;
-    }
-
-    .endereco {
-        min-width: 650px;
-    }
-
-    .inicio-container .inicio-conteudo {
-        max-width: 100%;
-    }
-
-    .footer {
-        min-width: 650px;
     }
 
     .inicio-container {
