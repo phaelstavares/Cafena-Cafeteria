@@ -3,7 +3,7 @@
 
 Explore a nossa variedade de cafés cuidadosamente selecionados, desde os clássicos robustos até os blends artesanais mais delicados. Cada grão é escolhido com dedicação, cada gole é uma viagem sensorial.
 
-[Site do projeto](https://phaelstavares.github.io/code-cafeteria/)
+[Site do projeto](https://phaelstavares.github.io/Cafena-Cafeteria/)
 
 ![Captura de tela 2024-03-28 151924](https://github.com/phaelstavares/code-cafeteria/assets/77020757/2e1db76f-0473-436d-98e6-6725062c074d)
 ![Captura de tela 2024-03-28 151939](https://github.com/phaelstavares/code-cafeteria/assets/77020757/7962c81b-81a9-4d18-aae9-92ba815f4777)
